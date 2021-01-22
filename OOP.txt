@@ -1,0 +1,29 @@
+the class creates the object 
+
+class is the defination , object is the actual thing that u work with inside ur code
+
+
+class in the house blueprint(مخطط)  ===> instantiation ===> house1 , house2 etc.... (objects)
+
+
+cuz objects themselves are made of 2 things state and behavior : 
+
+object  state - properties - variables (update the defualt class variables)
+object behavior - funtionality - functions (that is the thing they can do) 
+
+class Circle:		    # class 		
+	raduis = 0;
+	
+	def circum(self):
+		return 3.141 * 2 * self.raduis 
+
+circleA = Circle()      # objects 
+circleA.radius = 15 
+
+circleB = Circle()
+circleB.radius = 11  
+
+
+
+A constructor is a special kind of method that Python calls when it instantiates an object using the definitions found in your class. Python relies on the constructor to perform tasks .
+such as initializing (assigning values to) any instance variables that the object will need when it starts.
